@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 1.5rem;
 }
 
 .navbar {
@@ -526,7 +526,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 1.5rem;
     opacity: 1;
 }
 
@@ -654,6 +654,12 @@ a {
     color: #575757!important;
 }
 
+.col-sm-4 a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: rgba(255, 255, 255, .7) !important;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
@@ -686,7 +692,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 3rem;
     font-family: "Open Sans";
 }
 
@@ -705,12 +711,14 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2rem;
+    text-transform: uppercase;
     line-height: 1.4em;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -741,6 +749,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 100%;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -763,7 +773,7 @@ h4 {
 }
 
 .service-header {
-    font-size: 15px;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -781,17 +791,17 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -1046,3 +1056,5 @@ h4 {
         text-align: center;
     }
 }
+
+
